@@ -1,0 +1,5 @@
+Copyright (c) 
+
+We use libsvm-svdd-3.22 for implementation of Support Vector data description. As per Instructions of the copyright notice by LIBSVM, the following Copyright notice is included for the usage of LIBSVM-SVDD implementation. 
+
+Copyright (c) 2000-2019 Chih-Chung Chang and Chih-Jen Lin
