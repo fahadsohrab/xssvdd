@@ -1,6 +1,7 @@
 function [ssvdd]=xssvddtrain(Traindata,varargin)
-%ssvddtrain() is a function for training a model based on "Subspace Support
-%Vector Data Description"
+%xssvddtrain() is a function for training a model based on "Subspace Support
+%Vector Data Description" with regularizer expressing data concentration in
+a lower-dimensional subspace that captures diverse graph structures.
 % Input
 %    Traindata = Contains training data from a single (target) class for training a model.
 %   'maxIter' :Maximim iteraions, Default=100
