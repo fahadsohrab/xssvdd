@@ -17,7 +17,7 @@ a lower-dimensional subspace that captures diverse graph structures.
 % Output      :ssvdd.modelparam = Trained model (for every iteration)
 %             :ssvdd.Q= Projection matrix (after every iteration)
 %Example
-%Model=ssvddtrain(Traindata,'C',0.12,'d',2,'eta',0.02,'psi',3,'npt',1,'s',0.01);
+%Model=xssvddtrain(Traindata,'C',0.1,'d',4,'eta',0.02,'L',4,'B',0.001,'l',3);
 
 p = inputParser;
 defaultVal_maxIter = 100;
