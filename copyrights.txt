@@ -1,7 +1,6 @@
 The codes are provided without any warranty or gurantee.
 
-Copyright (c) 2017-2021 Fahad Sohrab, Jenni Raitoharju, Moncef Gabbouj, Alexandros Iosifidis.
-All rights reserved.
+Copyright (c) 
 
 Cite the following work if any part of the provided code is used in your work.
 
