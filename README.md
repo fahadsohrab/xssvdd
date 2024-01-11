@@ -21,6 +21,6 @@ In our experiments for "Trustworthiness of X Users: A One-Class Classification A
 
 • 𝑘 ∈ {1, 2, 3, . . . , 10}, Number of K-neighbors(kNN) (Hyperparameter for the Laplacian, Input as 'l')
 
-• C ∈ {1, 2, 3, . . . , 10}. Number of clusters (S_w,S_b) (Hyperparameter for the Laplacian, input as 'l')
+• C ∈ {1, 2, 3, . . . , 10}. Number of clusters (L_w,L_b) (Hyperparameter for the Laplacian, input as 'l')
 
 We fix the number of iterations to 10 for all variants of SSVDD.
