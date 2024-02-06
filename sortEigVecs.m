@@ -2,7 +2,6 @@ function [mevcs, mevls] = sortEigVecs(evcs,evls,type)
 % Input:
 % evls: not sorted eigenvalues (row vector)
 % evs: not sorted eigenvactors (columns)
-%
 % Output:
 % sorted eigenvalues and eigenvectors
 
