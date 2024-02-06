@@ -6,7 +6,7 @@
 %                 examples
 %        PREDICTED = Column matrix with predicted class labels by the
 %                    classification model
-% Output: EVAL = Row matrix with all the performance measures
+% Output:  EVAL = Row matrix with all the performance measures
 idx = (ACTUAL()==1);
 p = length(ACTUAL(idx));
 n = length(ACTUAL(~idx));
