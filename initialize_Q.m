@@ -4,7 +4,7 @@ function Q = initialize_Q(D,d)
 %        d = dimensinality of the data in lower d-dimensional subspace
 % Output:Q = initialized Projection matrix
 Q=randn(d,D);
-[Q_Pos,~]=qr(Q',0); % create an orthogonal matrix Q for witch it holds Q*Q'=I but not Q'*Q=I 
+[Q_Pos,~]=qr(Q',0); % create an orthogonal matrix Q for which it holds Q*Q'=I but not Q'*Q=I 
 Q=Q_Pos';
 clear Q_Pos;
 clear R;
