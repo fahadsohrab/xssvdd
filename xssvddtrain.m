@@ -52,7 +52,7 @@ l=p.Results.l;
 Trainlabel= ones(size(Traindata,2),1); %Training labels (all +1s)
 
     if(npt~=1)&&(npt~=0)
-    msg = 'Error in ssvddtrain() input: npt value should be either 1 for non-linear data description, or 0 (defaullt if no argument is passed) for linear data description.';
+    msg = 'Error in xssvddtrain() input: npt value should be either 1 for non-linear data description, or 0 (default: if no argument is passed) for linear data description.';
     error(msg)
     end
 
